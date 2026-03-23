@@ -1,0 +1,44 @@
+# ===== Backend =====
+/backend/node_modules/
+/backend/.env
+/backend/dist/
+/backend/coverage/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# ===== Frontend =====
+/frontend/node_modules/
+/frontend/.env
+/frontend/build/
+/frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===== Shared =====
+node_modules/
+
+build/
+
+.env
+.env.*.local
+.DS_Store
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+dump/
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Vite/Next/Parcel (if used)
+/frontend/.next/
+/frontend/.turbo/
+/frontend/.cache/
+/frontend/.vite/
+/frontend/.parcel-cache/
