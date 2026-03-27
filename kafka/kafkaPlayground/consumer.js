@@ -1,4 +1,4 @@
-import { kafka } from "client.js";
+import { kafka } from "./client.js";
 
 const group = process.argv[2];
 

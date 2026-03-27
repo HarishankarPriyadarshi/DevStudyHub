@@ -7,5 +7,5 @@ console.log("ip",ip)
 
 export const kafka= new Kafka({
     clientId:"my-app",
-    brokers:["ip:9092"]
+    brokers:[`${ip}:9092`]
 });
